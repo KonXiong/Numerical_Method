@@ -1,0 +1,15 @@
+function yk = do_Forward_Euler(xk_1, yk_1, h)
+yk = yk_1 + h*Fxy(xk_1,yk_1);
+
+function yk = do_Backward_Euler(xk, yk_1, h)
+yk = yk_1;
+for s = 1:100
+    yk1 = yk_1 + h*Fxy(xk,yk);
+    e1
+    if (e1<0.001)
+        break
+    end
+end 
+yk = yk1;
+
+function yk = do_Midpoing_Euler(xk_1,yk_2, yk_1,h)
