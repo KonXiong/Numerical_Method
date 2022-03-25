@@ -1,0 +1,14 @@
+clear;clc;
+% X=1:1:6;
+X = linspace(1,6,6);
+Y0=[6,11.1,15.7,21,26,30.8];
+Ym=[6,10.97,15.94,20.91,25.89,30.86];
+p = plot(X,Y0,'o',X,Ym,'-');
+hold on;
+p(1).LineWidth = 2;
+p(1).Color = [0.8500 0.3250 0.0980];
+p(2).LineWidth = 2;
+p(2).Color = [0 0.4470 0.7410];
+legend('原始数据','回归数据');
+grid on;
+set(gca,'GridLineStyle',':','GridColor','k','GridAlpha',1);

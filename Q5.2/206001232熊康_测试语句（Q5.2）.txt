@@ -1,0 +1,93 @@
+
+	Sponsored License -- for use in support of a program or activity sponsored by MathWorks.
+	Not for government, commercial or other non-sponsored organizational use.
+
+>> [x,HasRoot]=BM_func(0.5,0.8,0.001,0.001)
+
+x =
+
+    0.6359
+
+
+HasRoot =
+
+     1
+
+>> [x,HasRoot] = NewTon_Func(0.6359)
+
+x =
+
+    0.6366
+
+
+HasRoot =
+
+     1
+
+>> [x,HasRoot]=BM_func(0.16, 0.33, 0.001, 0.001)
+
+x =
+
+    0.2125
+
+
+HasRoot =
+
+     0
+
+>> [x,HasRoot] = NewTon_Func(0.2122)
+
+x =
+
+    0.2122
+
+
+HasRoot =
+
+     1
+
+>> [x,HasRoot]=BM_func(0.16, 0.33, 0.001, 0.001)
+
+x =
+
+    0.2125
+
+
+HasRoot =
+
+     0
+
+>> [x,HasRoot]=BM_func(0.16, 0.33, 0.0001, 0.001)
+
+x =
+
+    0.2125
+
+
+HasRoot =
+
+     0
+
+>> [x,HasRoot]=BM_func(0.16, 0.33, 0.001, 0.0001)
+
+x =
+
+    0.2121
+
+
+HasRoot =
+
+     1
+
+>> [x,HasRoot] = NewTon_Func(0.2121)
+
+x =
+
+    0.2122
+
+
+HasRoot =
+
+     1
+
+>> 
